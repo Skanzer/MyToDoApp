@@ -1,1 +1,26 @@
 https://github.com/microsoft/EveryoneCanCode-US/blob/main/Track_1_ToDo_App/Sprint-02%20-%20Web%20Application/Feature%202%20-%20Basic%20Styling/User%20Story%202%20-%20Personalize%20Website.md
+
+
+[2:57 PM] Andreas Schild
+Falls ihr das Deployment zur Azure Cloud ausprobieren möchtet, aber eigtl noch nicht bei Sprint 8 seid, dann könnt ihr wie folgt vorgehen:
+Download Source Code nach Sprint 7
+
+Fügt die folgende .env Datei, wie hier beschrieben, hinzu:
+USE_AZURE_OPENAI=True
+AZURE_OPENAI_DEPLOYMENT_NAME=gpt-35-turbo
+AZURE_OPENAI_API_KEY=a97249da4a6547a59672d82c08c23bee
+AZURE_OPENAI_ENDPOINT=https://westeurope.api.cognitive.microsoft.com/
+
+Loggt auch in Azure ein.
+
+Skander:
+
+-hero_432@fallbackone24clemenswaeltke.onmicrosoft.com
+- qn_UQdVIuqhT1VHx
+Dajana:
+- hero_431@fallbackone24clemenswaeltke.onmicrosoft.com
+- 8u2Zv0z1u@KIMyC4
+
+[2:58 PM] Andreas Schild
+Falls der OpenAI Key in der .env Datei aus welchen Gründen auch immer nicht funktioniert, ist hier noch eine zweite OpenAI Instanz mit dem folgenden Key:
+8fa0cc4f712941228f54c5a128a88fda
